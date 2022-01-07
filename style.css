@@ -120,6 +120,20 @@ ul {
     border: 2px solid blue;
     margin: 5px;
     position: static;
+    text-align: center;
+}
+
+.nav_box {
+    display: inline-block;
+    line-height: 5.8;
+    font-size: 16px;
+}
+
+.nav_box a {
+    color: white;
+    cursor: pointer;
+    line-height: 5.8;
+    text-decoration: none;
 }
 
 #pagecontent {
