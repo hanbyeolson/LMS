@@ -175,18 +175,85 @@ ul {
     border: 2px solid red;
 }
 .pagecontent_menu1 {
-    height: 370px;
-    width: 50%;
+    height: 300px;
+    width: 40%;
     border: 2px solid blue;
-    margin: 10px;
+    display: inline-block;
+    margin-left: 115px;
+    margin-top: 50px;
+}
+
+.pagecontent_menu1_box {
+    display: block;
+    position: relative;
+    text-align: left;
+    border: 2px solid green;
+    height: 100px;
+}
+
+.pagecontent_menu1_box_1 {
+    display: block;
+    height: 50px;
+    text-align: left;
+}
+
+.pagecontent_menu1_box_title {
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+}
+
+.pagecontent_menu1_box_title_sub {
+    font-size: 18px;
+    display: block;
+}
+
+.pagecontent_menu1_box_2 {
+    margin-top: 7px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.pagecontent_menu1_box_2_header1 {
+    font-weight: bold;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    color: black;
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.pagecontent_menu1_box_2_header2 {
+    font-weight: bold;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    color: black;
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.pagecontent_menu1_box_2_header3 {
+    font-weight: bold;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    color: black;
+    background-color: white;
+    height: auto;
+    padding: 5px 10px;
 }
 
 .pagecontent_menu2 {
-    height: 370px;
-    width: 50%;
+    height: 300px;
+    width: 40%;
     border: 2px solid blue;
-    margin-top: 10px;
-    margin-right: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
 }
 
 #footer {
