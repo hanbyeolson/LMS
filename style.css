@@ -10,6 +10,7 @@ ul {
     display: flex;
     height: 80px;
     border: 2px solid red;
+    background-color: white;
 }
 
 .header_logo{
@@ -65,12 +66,25 @@ ul {
     height: 455px;
     border: 2px solid blue;
     margin: 5px;
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 
 .nav_main_slogan {
     border: 2px solid blue;
     width: 50%;
     margin: 200px 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.nav_main_login {
+    width: 100%;
+    position: absolute;
+    left: 65%;
+    top: 0px;
 }
 
 .title {
@@ -98,6 +112,7 @@ ul {
     color: white;
     padding: 20px;
     display: block;
+    margin-top: 130px;
 }
 
 .nav_main_header {
@@ -111,8 +126,13 @@ ul {
     text-align: left;
 }
 
-.nav_main_content {
+.nav_main_login_btn {
     border: 2px solid yellow;
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .nav_sub {
@@ -120,20 +140,33 @@ ul {
     border: 2px solid blue;
     margin: 5px;
     position: static;
+    background: linear-gradient(90deg, rgba(7,157,61,0.8) 0%, rgba(0,103,132,0.8) 50%, rgba(2,56,148,0.8) 100%);
+}
+
+
+.nav_box {
+    line-height: 50px;
+    font-size: 16px;
+    width: auto;
     text-align: center;
 }
 
-.nav_box {
+.nav_box li {
     display: inline-block;
-    line-height: 5.8;
-    font-size: 16px;
+    line-height: 2px;
 }
 
-.nav_box a {
+.nav_box li a {
     color: white;
-    cursor: pointer;
-    line-height: 5.8;
+    display: block;
+    width: 200px;
+    height: 73px;
     text-decoration: none;
+    cursor: pointer;
+}
+.nav_box li:hover
+{
+    background-color: transparent;
 }
 
 #pagecontent {
@@ -152,7 +185,8 @@ ul {
     height: 370px;
     width: 50%;
     border: 2px solid blue;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 #footer {
