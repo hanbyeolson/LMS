@@ -208,43 +208,15 @@ ul {
     display: block;
 }
 
-.pagecontent_menu1_box_2 {
-    margin-top: 7px;
-    width: 100%;
-    border-bottom: 1px solid black;
-    cursor: pointer;
-    font-size: 16px;
+.nav-item {
     display: inline-block;
 }
 
-.pagecontent_menu1_box_2_header1 {
-    font-weight: bold;
-    border: 1px solid black;
-    border-bottom: 1px solid white;
-    color: black;
-    background-color: white;
+.pagecontent_item {
+    display: block;
+    width: 100%;
     height: auto;
-    padding: 5px 10px;
-}
-
-.pagecontent_menu1_box_2_header2 {
-    font-weight: bold;
-    border: 1px solid black;
-    border-bottom: 1px solid white;
-    color: black;
-    background-color: white;
-    height: auto;
-    padding: 5px 10px;
-}
-
-.pagecontent_menu1_box_2_header3 {
-    font-weight: bold;
-    border: 1px solid black;
-    border-bottom: 1px solid white;
-    color: black;
-    background-color: white;
-    height: auto;
-    padding: 5px 10px;
+    min-height: 182px;
 }
 
 .pagecontent_menu2 {
