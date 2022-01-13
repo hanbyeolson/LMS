@@ -207,12 +207,17 @@ ul {
     display: block;
 }
 
+.pagecontent_menu1_box_2 {
+    margin-top: 10px;
+}
+
 .nav-item {
     display: inline-block;
 } 
 
 button.pagecontent_menu1_tab {
     display: inline-block;
+    
 }
 
 .pagecontent_item {
@@ -239,7 +244,7 @@ button.pagecontent_menu1_tab {
     height: 100px;
 }
 
-.pagecontent_menu2_box_2 {
+.pagecontent_menu2_box_1 {
     display: block;
     height: 50px;
     text-align: left;
@@ -256,12 +261,17 @@ button.pagecontent_menu1_tab {
     display: block;
 }
 
+.pagecontent_menu2_box_2 {
+    margin-top: 10px;
+}
+
 .nav-item {
     display: inline-block;
 } 
 
 .button.pagecontent_menu2_tab {
     display: inline-block;
+
 }
 
 .pagecontent_item {
